@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+</head>
+<body >
+    <h1>Create Your Own ChatGPT in HTML , CSS , JavaScript</h1>
+    <!--chat-->
+      <div class="chat-container">
+         <div class=" chat outer-chat">
+            <div class="content">
+                <div class="details">
+                    <img src="images/user.jpg" alt="">
+                    <p>Hello ChatGPT</p>
+                </div>
+            </div>
+        </div>
+        <div  class=" chat inner-chat">
+            <div class="content">
+                <div class="details">
+                    <img src="images/chatbot.jpg" alt="">
+                    <p>Hello there! How can I help you today?</p>
+                </div>
+                <i class="fa-regular fa-copy"></i>          
+          </div>
+        </div>
+      </div> 
+      <div class="container">
+     
+        
+      </div>
+    <!--typing container-->
+    <div class="typing-container">
+        <div class="typing-content">
+            <div class="typing-textarea">
+                <textarea  id="chat-input" placeholder="Enter a prompt here" required></textarea>
+                <i id="send-btn" class="fa-solid fa-share"></i> 
+            </div>
+            <div class="typing-controls">
+                <i class="fa-regular fa-sun"></i>
+                <i class="fa-solid fa-trash-can"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
